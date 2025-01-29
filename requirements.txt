@@ -1,0 +1,4 @@
+Flask==2.1.1
+openai==0.11.4
+Flask-Limiter==2.6.0
+python-dotenv==0.19.2
