@@ -62,6 +62,7 @@ python main.py
 
 #### Request Headers:
 - `Content-Type`: `application/json`
+- `User-ID`: `user_id_to_be_used` (optional)
 
 #### Request Body:
 ```json
