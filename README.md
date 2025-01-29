@@ -49,7 +49,7 @@ flask shell
 
 ### 5. Run the application
 ```bash
-python app.py
+python main.py
 ```
 
 ---
