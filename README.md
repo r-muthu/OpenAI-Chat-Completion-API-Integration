@@ -1,5 +1,7 @@
 # OpenAI Chat Completion API Integration
 
+By Muthu Ramaswamy
+
 This Python-based API service acts as a middleman between the client and OpenAI's Chat Completion API. The service:
 - Handles incoming data
 - Makes requests to OpenAI's API to generate completions
