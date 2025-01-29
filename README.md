@@ -105,14 +105,14 @@ To simulate an error, send the following headers:
 #### Valid Request:
 Without User-ID as header (a random UUID will be generated):
 ```bash
-curl -X POST http://127.0.0.1:8080/openai-completion \
+curl -X POST http://localhost:8080/openai-completion \
 -H "Content-Type: application/json" \
 -d '{"prompt": "What is the capital of France?"}'
 ```
 
 With User-ID as header:
 ```bash
-curl -X POST http://127.0.0.1:8080/openai-completion \
+curl -X POST http://localhost:8080/openai-completion \
 -H "Content-Type: application/json" \
 -H "User-ID: Person-A"
 -d '{"prompt": "What is the capital of France?"}'
@@ -120,7 +120,7 @@ curl -X POST http://127.0.0.1:8080/openai-completion \
 
 #### Simulate OpenAI Error:
 ```bash
-curl -X POST http://127.0.0.1:8080/openai-completion \
+curl -X POST http://localhost:8080/openai-completion \
 -H "Content-Type: application/json" \
 -H "Simulate-Error: OpenAIError" \
 -d '{"prompt": "Simulate OpenAI error"}'
